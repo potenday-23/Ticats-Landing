@@ -100,8 +100,8 @@ a {
 }
 
 /* 바로가기 */
-.shortcut-button {
-    z-index: 100000;
+#shortcut-button {
+    z-index: 1;
     position: fixed; /* 화면에 고정 */
     bottom: 40px; /* 하단에서 20px 떨어진 위치 */
     left: 40px;

@@ -1,3 +1,3 @@
 function scrollToTop() {
-  window.scrollTo({top: 5000, behavior: 'smooth'});
+  window.scrollTo({top: 5300, behavior: 'smooth'});
 }
