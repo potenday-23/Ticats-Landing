@@ -11,10 +11,10 @@ html {
 }
 
 body {
+    font-family: 'SUIT', sans-serif;
     max-width: 390px;
     font-size: 1.8rem;
     line-height: 1.6;
-    font-family: Roboto, Avenir, sans-serif;
 }
 
 .container {
@@ -178,7 +178,7 @@ a {
 }
 
 .category-card-text {
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 .category-card-image {
@@ -233,8 +233,9 @@ a {
 
 /*---소개---*/
 .introduction {
+    font-family: 'SUIT', sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 60px;
 }
 
@@ -286,6 +287,7 @@ a {
     position: absolute;
     text-align: center;
     font-size: 24px;
+    white-space: nowrap;
 }
 
 .ticats-charactor {
@@ -355,10 +357,11 @@ a {
 
 .reservation-text1 {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .reservation-text2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .reservation-box {
@@ -368,6 +371,7 @@ a {
 }
 
 .reservation-box-text {
+    text-align: left;
     font-size: 20px;
     margin-bottom: 6px;
 }
@@ -379,6 +383,16 @@ a {
     width: 342px;
     height: 60px;
     border-radius: 12px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.reservation-box-input:focus {
+    border-color: #F683BB;
+    border-width: 2px;
+    outline: none;
 }
 
 .reservation-box-before {
@@ -393,6 +407,23 @@ a {
     text-align: left;
 }
 
+.reservation-agree-checkbox {
+    height: auto;
+}
+
+.reservation-agree-checkbox > input[type="checkbox"] {
+    margin: 15px;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.reservation-agree-checkbox > span {
+    margin-left: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
 .reservation-box-submit {
     display: inline-flex;
     align-items: center;
@@ -403,6 +434,7 @@ a {
     width: 342px;
     height: 62px;
     padding: 10px;
+    margin-top: 40px;
     border: none;
     font-size: 20px;
 }
