@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b4cb2e-7675-44e9-a3e1-12d7d6bb4944" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/Bottom-Arrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrollbottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrollbottom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/offbe/Desktop/tickats_landing",
+    "last_opened_file_path": "C:/Users/offbe/Desktop/tickats_landing/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\offbe\Desktop\tickats_landing\images" />
       <recent name="C:\Users\offbe\Desktop\tickats_landing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -120,7 +121,7 @@
       <updated>1704898110554</updated>
       <workItem from="1704898112190" duration="693000" />
       <workItem from="1705129418340" duration="2817000" />
-      <workItem from="1705233802347" duration="3285000" />
+      <workItem from="1705233802347" duration="3520000" />
     </task>
     <servers />
   </component>

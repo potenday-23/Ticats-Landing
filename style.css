@@ -118,6 +118,11 @@ a {
     font-size: 20px;
 }
 
+#shortcut-button > img {
+    margin-left: 10px;
+    width: 32px;
+}
+
 /* -- 메인 배너 --*/
 .main-banner {
     position: relative;
@@ -227,6 +232,10 @@ a {
 .introduction-image {
     position: relative;
     overflow: hidden;
+}
+
+.ticats-introduction-gif1-img {
+    width: 250px;
 }
 
 /*---인터뷰---*/
