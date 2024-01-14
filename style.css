@@ -119,6 +119,10 @@ a {
     font-size: 20px;
 }
 
+.hidden {
+    display: none;
+}
+
 #shortcut-button > img {
     width: 32px;
     height: 32px;
@@ -210,7 +214,7 @@ a {
 }
 
 #column2 {
-    animation: scroll-right 360s linear infinite;
+    animation: scroll-right 60s linear infinite;
 }
 
 #column3 {
