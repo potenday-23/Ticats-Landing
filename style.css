@@ -96,26 +96,32 @@ a {
 /* MAIN */
 .main {
     width: 390px;
+    position: relative;
     background: #F2F2F7;
 }
 
 /* 바로가기 */
 #shortcut-button {
     z-index: 1;
-    position: fixed; /* 화면에 고정 */
-    bottom: 40px; /* 하단에서 20px 떨어진 위치 */
-    left: 40px;
+    position: fixed;
+    bottom: 40px;
+    left: 24px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color: white;
     background: #FB6275;
     border-radius: 30px;
-    width: 293px;
-    height: 64px;
+    width: 342px;
+    height: 62px;
     padding: 10px;
     border: none;
     font-size: 20px;
+}
+
+#shortcut-button > img {
+    width: 32px;
+    height: 32px;
 }
 
 #shortcut-button > img {
@@ -131,6 +137,8 @@ a {
 .main-banner > .main-banner-image {
     width: 100%;
     vertical-align: middle;
+    filter: brightness(60%)
+
 }
 
 .main-banner > .main-banner-text {
@@ -211,7 +219,7 @@ a {
 
 #column4 {
     position: absolute;
-    top: 160px;
+    top: 80px;
     left: 10px;
     animation: scroll-left 60s linear infinite;
 }
@@ -227,11 +235,17 @@ a {
 .introduction {
     text-align: center;
     font-size: 20px;
+    margin-bottom: 60px;
 }
 
 .introduction-image {
     position: relative;
     overflow: hidden;
+    text-align: center;
+}
+
+.introduction-image-phone {
+    width: 250px;
 }
 
 .ticats-introduction-gif1-img {
@@ -267,8 +281,8 @@ a {
 }
 
 .ticats-inner {
-    padding-left: 50px;
-    padding-right: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     text-align: center;
     font-size: 24px;
@@ -292,10 +306,10 @@ a {
 .ticats-introduction1 {
     position: absolute;
     text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-top: 120px;
     font-size: 22px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .ticats-background3 {
