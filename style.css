@@ -1,0 +1,422 @@
+/* RESET 해줄 부분 */
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+}
+
+/* 공통 속성 */
+html {
+    font-size: 10px;
+}
+
+body {
+    max-width: 390px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-family: Roboto, Avenir, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.header {
+    background: #F2F2F7;
+    height: 50px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    /* absolute이기 때문에 container의 padding값을 적용받지 못해서 padding을 따로 설정해주어야 함 */
+}
+
+.logo > .left {
+    max-width: 60px;
+    min-width: 60px;
+    padding: 5px 0;
+}
+
+.logo > .right {
+    max-height: 30px;
+    min-height: 30px;
+}
+
+.nav {
+    text-align: right;
+}
+
+.list {
+    margin: 0;
+    font-size: 0;
+}
+
+.list-item {
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.container-float {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.container-float::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.list-item > a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.list-item > a:hover {
+    color: #c9f0dd;
+}
+
+/* MAIN */
+.main {
+    background: #F2F2F7;
+}
+
+/* -- 메인 배너 --*/
+.main-banner {
+    position: relative;
+}
+
+.main-banner > .main-banner-image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.main-banner > .main-banner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*-- BR --*/
+.main-br {
+    height: 70px;
+}
+
+/*-- 카테고리 --*/
+.main-categories {
+    overflow: hidden;
+}
+
+.image-column {
+    height: 120px;
+    width: 900px;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.category-card {
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    max-width: 115px;
+    max-height: 110px;
+}
+
+.category-card-text {
+    font-size: 13px;
+}
+
+.category-card-image {
+    display: block;
+    max-width: 115px;
+    max-height: 85px;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+#column1 {
+    animation: scroll-left 30s linear infinite;
+}
+
+#column2 {
+    animation: scroll-right 360s linear infinite;
+}
+
+#column3 {
+    animation: scroll-left 30s linear infinite;
+}
+
+#column4 {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    animation: scroll-left 60s linear infinite;
+}
+
+/*-------------*/
+
+/*-- BR --*/
+.main-br2 {
+    height: 100px;
+}
+
+/*---소개---*/
+.introduction {
+    text-align: center;
+    font-size: 20px;
+}
+
+.introduction-image {
+    position: relative;
+    overflow: hidden;
+}
+
+/*---인터뷰---*/
+.interview {
+    text-align: center;
+    font-size: 20px;
+}
+
+.interview-image {
+    position: relative;
+}
+
+#interview-chat-image {
+    left: 20px;
+    position: absolute;
+}
+
+/*-- BR --*/
+.main-br3 {
+    height: 50px;
+}
+
+/*---티캣츠---*/
+.ticats {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    height: 380px;
+}
+
+.ticats-inner {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+}
+
+.ticats-charactor {
+    margin-top: 40px;
+    margin-left: 40px;
+    max-width: 196px;
+    max-height: 172px;
+}
+
+/*----본격 소개 화면 ----*/
+.ticats-introduction {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: white;
+    position: relative;
+}
+
+.ticats-introduction1 {
+    position: absolute;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 120px;
+    font-size: 22px;
+}
+
+.ticats-introduction-gif1-img {
+    max-width: 10px;
+}
+
+
+.ticats-background3 {
+    text-align: right;
+}
+
+
+/*-----통계-----*/
+.statistics {
+    font-size: 22px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.statistics-img {
+    max-width: 250px;
+}
+
+.statistics-text {
+    max-width: 300px;
+}
+
+/*---마무리---*/
+.final {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.final-logo {
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+/*---사전 예약---*/
+.reservation {
+    background: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.reservation-text1 {
+    font-size: 24px;
+}
+
+.reservation-text2 {
+    font-size: 18px;
+}
+
+.reservation-box {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 80px;
+}
+
+.reservation-box-text {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.reservation-box-input {
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: 2px solid #F683BB;
+    width: 342px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.reservation-box-before {
+    display: flex;
+    justify-content: center;
+}
+
+.reservation-agree {
+    font-size: 14px;
+    width: 340px;
+    padding: 10px;
+    text-align: left;
+}
+
+.reservation-box-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #F683BB;
+    border-radius: 30px;
+    width: 342px;
+    height: 62px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.reservation-box-after {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.reservation-email-complete {
+    margin-bottom: 40px;
+}
+
+/* 푸터 */
+.footer {
+    background: #131314;
+    clear: both;
+    font-size: 1.2rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo {
+    margin-left: 15px;
+}
+
+.footer-text {
+    margin-top: 35px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.footer-gray {
+    color: #AEAEB2;
+}
+
+.footer-text1 {
+    margin-bottom: 10px;
+}
+
+.footer-text1 > span {
+    margin-right: 5px;
+}
+
+.footer-text2 {
+    margin-bottom: 40px;
+}
+
+.footer-text2 > span {
+    margin-right: 5px;
+}
+.footer-text3 > span {
+    margin: 10px;
+}
