@@ -15,13 +15,15 @@ body {
     max-width: 390px;
     font-size: 1.8rem;
     line-height: 1.6;
+    margin: 0 auto; /* Center the body content */
+
 }
 
 .container {
-    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
+    max-width: 100%;
 }
 
 a {
@@ -71,7 +73,7 @@ a {
 }
 
 .container-float {
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
