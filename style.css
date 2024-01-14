@@ -95,7 +95,27 @@ a {
 
 /* MAIN */
 .main {
+    width: 390px;
     background: #F2F2F7;
+}
+
+/* 바로가기 */
+.shortcut-button {
+    z-index: 100000;
+    position: fixed; /* 화면에 고정 */
+    bottom: 40px; /* 하단에서 20px 떨어진 위치 */
+    left: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #FB6275;
+    border-radius: 30px;
+    width: 293px;
+    height: 64px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
 }
 
 /* -- 메인 배너 --*/
@@ -417,6 +437,7 @@ a {
 .footer-text2 > span {
     margin-right: 5px;
 }
+
 .footer-text3 > span {
     margin: 10px;
 }
