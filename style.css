@@ -23,6 +23,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -107,16 +108,19 @@ a {
     z-index: 1;
     position: fixed;
     bottom: 40px;
-    left: 24px;
+    left: 52.5px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color: white;
     background: #FB6275;
     border-radius: 30px;
-    width: 342px;
-    height: 62px;
-    padding: 10px;
+    width: 285px;
+    height: 54px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
     border: none;
     font-size: 20px;
 }
@@ -125,14 +129,10 @@ a {
     display: none;
 }
 
-#shortcut-button > img {
-    width: 32px;
-    height: 32px;
-}
 
 #shortcut-button > img {
     margin-left: 10px;
-    width: 32px;
+    width: 24px;
 }
 
 /* -- 메인 배너 --*/
@@ -374,7 +374,8 @@ a {
 .reservation-box {
     text-align: center;
     margin-top: 55px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
+    background: white;
 }
 
 .reservation-box-text {
@@ -431,7 +432,22 @@ a {
     vertical-align: middle;
 }
 
-.reservation-box-submit {
+#reservation-box-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #F683BB;
+    border-radius: 30px;
+    width: 342px;
+    height: 62px;
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+#reservation-box-submit2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -453,6 +469,10 @@ a {
 
 .reservation-email-complete {
     margin-bottom: 40px;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /* 푸터 */

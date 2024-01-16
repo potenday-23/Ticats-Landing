@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b4cb2e-7675-44e9-a3e1-12d7d6bb4944" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/js/send_email.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrollbottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scrollbottom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,25 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/offbe/Desktop/tickats_landing/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/offbe/Desktop/tickats_landing/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\offbe\Desktop\tickats_landing\js" />
       <recent name="C:\Users\offbe\Desktop\tickats_landing\images" />
       <recent name="C:\Users\offbe\Desktop\tickats_landing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\offbe\Desktop\tickats_landing\js" />
       <recent name="C:\Users\offbe\Desktop\tickats_landing\images" />
       <recent name="C:\Users\offbe\Desktop\tickats_landing" />
     </key>
@@ -121,7 +127,7 @@
       <workItem from="1705129418340" duration="2817000" />
       <workItem from="1705233802347" duration="10216000" />
       <workItem from="1705246425260" duration="4448000" />
-      <workItem from="1705253694139" duration="136000" />
+      <workItem from="1705253694139" duration="5446000" />
     </task>
     <servers />
   </component>

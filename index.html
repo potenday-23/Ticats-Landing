@@ -12,10 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
-<script src="categories.js"></script>
-<script src="scrollbottom.js"></script>
+<script src="js/categories.js"></script>
+<script src="js/scrollbottom.js"></script>
+<script src="js/send_email.js"></script>
 
 
 <header class="header">
@@ -33,16 +36,19 @@
     <button style="z-index: 1;
                    position: fixed;
                    bottom: 40px;
-                   left: 24px;
+                   left: 52.5px;
                    display: inline-flex;
                    align-items: center;
                    justify-content: center;
                    color: white;
                    background: #FB6275;
                    border-radius: 30px;
-                   width: 342px;
-                   height: 62px;
-                   padding: 10px;
+                   width: 285px;
+                   height: 54px;
+                   padding-top: 12px;
+                   padding-bottom: 12px;
+                   padding-left: 30px;
+                   padding-right: 30px;
                    border: none;
                    font-size: 20px;"
             id="shortcut-button" onclick="scrollToTop()">사전 알림 신청 바로가기
@@ -241,9 +247,9 @@
 
         <div class="reservation-box">
             <div class="reservation-box-before">
-                <form>
+                <form method="post" id="form">
                     <div class="reservation-box-text">이메일 주소 입력</div>
-                    <input type="email" class="reservation-box-input" placeholder="Ticats@gmail.com">
+                    <input name="email" type="email" class="reservation-box-input" placeholder="Ticats@gmail.com">
                     <div class="reservation-agree">
                         <div class="reservation-agree-checkbox">
                             <input type="checkbox">
@@ -254,19 +260,14 @@
                         <div>[필수] 수집항목: 이메일 주소</div>
                         <div>보유 및 이용기간: 이용목적 달성 시 개인정보 제공 및 활용에 거부할 권리가 있습니다. 다만 동의하지 않을 경우 서비스 제공에 제한이 있을 수 있습니다.</div>
                     </div>
-                    <button class="reservation-box-submit">
+                    <button id="reservation-box-submit">
                         <span>사전알림 신청</span>
                         <img style="margin-left: 10px" src="images/Vector.png">
                     </button>
                 </form>
             </div>
-
             <div class="reservation-box-after">
-                <div class="reservation-email-complete">이메일로 알림을 발송해드릴게요!</div>
-                <div class="reservation-box-submit">
-                    <span>알림 신청 완료</span>
-                    <img style="margin-left: 10px" src="images/check.png">
-                </div>
+
             </div>
         </div>
     </div>
