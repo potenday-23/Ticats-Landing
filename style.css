@@ -259,6 +259,10 @@ a {
     width: 250px;
 }
 
+#column4 > img {
+    height: 353px;
+}
+
 /*---인터뷰---*/
 .interview {
     text-align: center;
@@ -353,6 +357,10 @@ a {
     text-align: right;
     margin-right: 20px;
     margin-bottom: 50px;
+}
+
+.final-logo > img {
+    width: 46px;
 }
 
 /*---사전 예약---*/
@@ -484,8 +492,9 @@ a {
     padding-bottom: 60px;
 }
 
-.footer-logo {
+.footer-logo > img {
     margin-left: 15px;
+    width: 82px;
 }
 
 .footer-text {
