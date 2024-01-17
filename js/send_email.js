@@ -20,6 +20,7 @@ $(function () {
                     "<span>알림 신청 완료</span>\n" +
                     "<img style=\"margin-left: 10px\" src=\"images/check.png\">\n" +
                     "</div>";
+                $('.reservation-box-after').empty();
                 $('.reservation-box-after').append(body);
 
 
