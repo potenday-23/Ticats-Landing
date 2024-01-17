@@ -1,11 +1,11 @@
 $(function () {
-    loading = $('<div id="loading" class="loading"></div><img id="loading_img" alt="loading" src="" />').appendTo(document.body).hide();
+    loading = $('<div id="loading" class="loading"></div><div id="loading_img"><img alt="loading" src="images/ticats.png" /><div>로딩중..</div></div>>').appendTo(document.body).hide();
 
     $('#reservation-box-submit').on("click", function () {
         event.preventDefault(); // 기본 폼 제출 동작 중지
 
         var email = $("#form input[name='email']").val(); // 올바른 요소 선택
-
+        loading.show()
         $.ajax({
             type: "POST",
             url: "https://www.ticats.r-e.kr/api/landings",
@@ -24,8 +24,7 @@ $(function () {
                     "</div>";
                 $('.reservation-box-after').empty();
                 $('.reservation-box-after').append(body);
-
-
+                loading.hide()
             },
             error: function (request, status, error) {
                 console.log("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);

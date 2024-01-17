@@ -31,6 +31,35 @@ a {
     text-decoration: none;
 }
 
+/* LOADING */
+#loading {
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    _position: absolute;
+    top: 0px;
+    width: 100%;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.loading {
+    background-color: white;
+    z-index: 999999;
+}
+
+#loading_img {
+    position: fixed;
+    bottom: 300px;
+    left: 130px;
+    width: 90px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    z-index: 999999;
+}
+
 /* HEADER */
 .header {
     background: #F2F2F7;
