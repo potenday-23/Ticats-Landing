@@ -1,4 +1,6 @@
 $(function () {
+    loading = $('<div id="loading" class="loading"></div><img id="loading_img" alt="loading" src="" />').appendTo(document.body).hide();
+
     $('#reservation-box-submit').on("click", function () {
         event.preventDefault(); // 기본 폼 제출 동작 중지
 
