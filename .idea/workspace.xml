@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="39b4cb2e-7675-44e9-a3e1-12d7d6bb4944" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/send_email.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/send_email.js" afterDir="false" />
+>>>>>>> 4c73e37a63349a9c63d1e06e93884b4050f75b95
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
@@ -45,6 +51,19 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/rosie/pythonProject/ticats-landing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+>>>>>>> 4c73e37a63349a9c63d1e06e93884b4050f75b95
   }
 }</component>
   <component name="RecentsManager">
@@ -122,7 +141,12 @@
       <workItem from="1705129418340" duration="2817000" />
       <workItem from="1705233802347" duration="10216000" />
       <workItem from="1705246425260" duration="4448000" />
+<<<<<<< HEAD
       <workItem from="1705253694139" duration="8362000" />
+=======
+      <workItem from="1705253694139" duration="6907000" />
+      <workItem from="1705461867763" duration="216000" />
+>>>>>>> 4c73e37a63349a9c63d1e06e93884b4050f75b95
     </task>
     <servers />
   </component>
